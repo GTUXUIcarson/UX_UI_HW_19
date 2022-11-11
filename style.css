@@ -1,0 +1,67 @@
+header {
+    background-color: rgb(43, 41, 45);
+    height: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #373738;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    font-style: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.wrapper2 {
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-gap: 10px;
+    height: auto;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: auto;
+   
+
+}
+button {
+    height: 150px;
+    width: 150px;
+}
+
+.loading {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-bottom: auto;
+    outline: 2px solid black;
+    background-color: antiquewhite;
+}
